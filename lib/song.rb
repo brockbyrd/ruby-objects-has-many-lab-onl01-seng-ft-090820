@@ -15,6 +15,7 @@ class Song
         nil
       end
       self.artist.name
+    end
   end
 
   def self.all
