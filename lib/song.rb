@@ -10,7 +10,11 @@ class Song
   end
 
   def artist_name
-    self.artist.name
+    self.artist.name.each do |artist|
+      if artist.name == false
+        nil
+      end
+      self.artist.name
   end
 
   def self.all
